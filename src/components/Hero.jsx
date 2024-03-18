@@ -3,6 +3,7 @@ import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import profilepic from "../assets/profilepicB.png";
 import notebookL from "../assets/notebookL.png";
 import notebookM from "../assets/notebookM.png";
+import pdf from "../assets/Xavier Arnau CV ENG.pdf";
 
 const Hero = () => {
   return (
@@ -10,15 +11,14 @@ const Hero = () => {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative z-20">
         <div className="max-w-xl mx-auto text-center">
           <h1 className="text-4xl font-bold sm:text-6xl gray-primary-color">
-            I will solve your frontend
+            Xavi Arnau Frontend developer
           </h1>
           <p className="mt-5 text-base text-white sm:text-xl">
-            Do you need help in frontend development? Don't hesitate to contact
-            me!
+            Learning new things one day at a time
           </p>
           <div>
             <a
-              href="#"
+              href={pdf}
               title=""
               className="shadow-2xl mr-4 inline-flex items-center px-6 py-4 mt-8 
               font-semibold text-white border rounded-lg transition-all duration-200 hover:scale-110"
@@ -27,7 +27,7 @@ const Hero = () => {
               Download CV
             </a>
             <a
-              href="#"
+              href="/portfolio"
               title=""
               className="inline-flex items-center px-6 py-4 mt-8 
               font-semibold text-white bg-primary-color rounded-lg transition-all duration-200 hover:scale-110"
@@ -38,19 +38,19 @@ const Hero = () => {
           </div>
           <div className="flex flex-row justify-between text-white p-8 max-w-[500px] mx-auto">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/xavi-arnau/"
               className="transition-all duration-200 hover:scale-110 cursor-pointer"
             >
               <AiFillLinkedin className="w-[70px] h-auto" />
             </a>
             <a
-              href="#"
+              href="https://github.com/Xavi-Arnau/"
               className="transition-all duration-200 hover:scale-110 cursor-pointer"
             >
               <AiFillGithub className="w-[70px] h-auto" />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/xav1arnau/"
               className="transition-all duration-200 hover:scale-110 cursor-pointer"
             >
               <AiFillInstagram className="w-[70px] h-auto" />

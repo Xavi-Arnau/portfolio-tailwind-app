@@ -19,25 +19,25 @@ const Navbar = () => {
         </div>
         <ul className="text-gray-700 font-medium hidden lg:flex lg:items-center lg:justify-center lg:space-x-10 text-2xl">
           <li className="p-2">
-            <NavLink to="/hero" activeClassName="selected">
+            <NavLink to="/" className="selected">
               Home
             </NavLink>
           </li>
-          <li className="p-2">
-            <NavLink to="/about" activeClassName="text-black">
+          {/*<li className="p-2">
+            <NavLink to="/about" className ="text-black">
               About
             </NavLink>
-          </li>
+          </li>*/}
           <li className="p-2">
-            <NavLink to="/portfolio" activeClassName="text-black">
+            <NavLink to="/portfolio" className="text-black">
               Portfolio
             </NavLink>
           </li>
-          <li className="p-2">
-            <NavLink to="/contact" activeClassName="text-black">
+          {/*<li className="p-2">
+            <NavLink to="/contact" className ="text-black">
               Contact
             </NavLink>
-          </li>
+  </li>*/}
         </ul>
 
         <div onClick={handleNav} className="block md:hidden text-white z-40">
@@ -54,25 +54,25 @@ const Navbar = () => {
           <h1 className="text-3xl gray-primary-color m-4">Xavi Arnau</h1>
           <ul className="p-8 text-4xl ml-20">
             <li className="p-2">
-              <NavLink to="/hero" activeClassName="selected">
+              <NavLink to="/" className="selected">
                 Home
               </NavLink>
             </li>
-            <li className="p-2">
-              <NavLink to="/about" activeClassName="text-black">
+            {/*<li className="p-2">
+              <NavLink to="/about" className ="text-black">
                 About
               </NavLink>
-            </li>
+        </li>*/}
             <li className="p-2">
-              <NavLink to="/portfolio" activeClassName="text-black">
+              <NavLink to="/portfolio" className="text-black">
                 Portfolio
               </NavLink>
             </li>
-            <li className="p-2">
-              <NavLink to="/contact" activeClassName="text-black">
+            {/*<li className="p-2">
+              <NavLink to="/contact" className ="text-black">
                 Contact
-              </NavLink>
-            </li>
+        </NavLink>
+            </li>*/}
           </ul>
         </div>
       </div>
