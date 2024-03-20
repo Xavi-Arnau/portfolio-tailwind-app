@@ -6,6 +6,8 @@ import proj4 from "../assets/Random-quote.png";
 import proj5 from "../assets/Cards-game.png";
 import proj6 from "../assets/Weather-App.png";
 import proj7 from "../assets/Portfolio.png";
+import proj8 from "../assets/Recipes-App.png";
+
 import { AiFillChrome, AiFillGithub } from "react-icons/ai";
 
 export const Portfolio = () => {
@@ -133,7 +135,7 @@ export const Portfolio = () => {
             className="group h-48 col-span-3 md:h-80"
           >
             <img
-              src={proj1}
+              src={proj8}
               alt=""
               className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110 rounded-lg"
             />
