@@ -7,6 +7,9 @@ import proj5 from "../assets/Cards-game.png";
 import proj6 from "../assets/Weather-App.png";
 import proj7 from "../assets/Portfolio.png";
 import proj8 from "../assets/Recipes-App.png";
+import proj9 from "../assets/Multi-step-form.png";
+import proj10 from "../assets/News-Homepage.png";
+import proj11 from "../assets/Hangman.png";
 
 import { AiFillChrome, AiFillGithub } from "react-icons/ai";
 
@@ -14,6 +17,128 @@ export const Portfolio = () => {
   return (
     <div className="pt-16 pb-10 sm:pt-16 sm:pb-16 lg:pb-16">
       <div className="px-7 mx-auto grid sm:grid-cols-2 gap-6">
+        {/*start item*/}
+        <div className="mb-4 flex flex-col sm:grid sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
+          <a
+            target="blank_"
+            href="https://some-multi-step-form.netlify.app/"
+            className="group h-48 col-span-3 md:h-80"
+          >
+            <img
+              src={proj9}
+              alt=""
+              className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110 rounded-lg"
+            />
+          </a>
+
+          <div className="flex flex-col col-span-4 p-4 mx-auto my-auto">
+            <h2 className="text-gray-200 font-bold text-xl leading-10">
+              Multi step form
+            </h2>
+            <p className="text-gray-400">
+              Multi step form based on a challenge from Frontend Mentor.
+            </p>
+          </div>
+          <div className="flex flex-row justify-between text-white gap-4 mx-auto pb-4">
+            <a
+              target="blank_"
+              className="flex align-items"
+              href="https://github.com/Xavi-Arnau/multi-step-form"
+            >
+              <AiFillGithub className="w-[55px] h-auto" />
+            </a>
+            <a
+              target="blank_"
+              className="flex align-items"
+              href="https://some-multi-step-form.netlify.app/"
+            >
+              <AiFillChrome className="w-[55px] h-auto" />
+            </a>
+          </div>
+        </div>
+        {/*end item*/}
+        {/*start item*/}
+        <div className="mb-4 flex flex-col sm:grid sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
+          <a
+            target="blank_"
+            href="https://some-news-homepage-app.netlify.app/"
+            className="group h-48 col-span-3 md:h-80"
+          >
+            <img
+              src={proj10}
+              alt=""
+              className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110 rounded-lg"
+            />
+          </a>
+
+          <div className="flex flex-col col-span-4 p-4 mx-auto my-auto">
+            <h2 className="text-gray-200 font-bold text-xl leading-10">
+              News Homepage
+            </h2>
+            <p className="text-gray-400">
+              News Homepage project based on a challenge from Frontend Mentor
+            </p>
+          </div>
+          <div className="flex flex-row justify-between text-white gap-4 mx-auto pb-4">
+            <a
+              target="blank_"
+              className="flex align-items"
+              href="https://github.com/Xavi-Arnau/news-homepage-app"
+            >
+              <AiFillGithub className="w-[55px] h-auto" />
+            </a>
+            <a
+              target="blank_"
+              className="flex align-items"
+              href="https://some-news-homepage-app.netlify.app/"
+            >
+              <AiFillChrome className="w-[55px] h-auto" />
+            </a>
+          </div>
+        </div>
+        {/*end item*/}
+        {/*start item*/}
+        <div className="mb-4 flex flex-col sm:grid sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
+          <a
+            target="blank_"
+            href="https://some-hangman-app.netlify.app/"
+            className="group h-48 col-span-3 md:h-80"
+          >
+            <img
+              src={proj11}
+              alt=""
+              className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110 rounded-lg"
+            />
+          </a>
+
+          <div className="flex flex-col col-span-4 p-4 mx-auto my-auto">
+            <h2 className="text-gray-200 font-bold text-xl leading-10">
+              Hangman game
+            </h2>
+            <p className="text-gray-400">
+              The hangman game. Took the idea from a challenge from Frontend
+              Mentor
+            </p>
+          </div>
+          <div className="flex flex-row justify-between text-white gap-4 mx-auto pb-4">
+            <a
+              target="blank_"
+              className="flex align-items"
+              href="https://github.com/Xavi-Arnau/hangman-app"
+            >
+              <AiFillGithub className="w-[55px] h-auto" />
+            </a>
+            <a
+              target="blank_"
+              className="flex align-items"
+              href="https://some-hangman-app.netlify.app/"
+            >
+              <AiFillChrome className="w-[55px] h-auto" />
+            </a>
+          </div>
+        </div>
+        {/*end item*/}
+        {/*start item*/}
         <div className="mb-4 flex flex-col sm:grid sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
           <a
             target="blank_"
@@ -52,6 +177,8 @@ export const Portfolio = () => {
             </a>
           </div>
         </div>
+        {/*end item*/}
+        {/*start item*/}
         <div className="mb-4 flex flex-col sm:grid sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
           <a
             target="blank_"
@@ -88,6 +215,8 @@ export const Portfolio = () => {
             </a>
           </div>
         </div>
+        {/*end item*/}
+        {/*start item*/}
         <div className="mb-4 flex flex-col sm:grid sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
           <a
             target="blank_"
@@ -128,6 +257,8 @@ export const Portfolio = () => {
             </a>
           </div>
         </div>
+        {/*end item*/}
+        {/*start item*/}
         <div className="mb-4 flex flex-col sm:grid sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
           <a
             target="blank_"
@@ -164,6 +295,8 @@ export const Portfolio = () => {
             </a>
           </div>
         </div>
+        {/*end item*/}
+        {/*start item*/}
         <div className="mb-4 flex flex-col sm:grid sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
           <a
             target="blank_"
@@ -202,6 +335,8 @@ export const Portfolio = () => {
             </a>
           </div>
         </div>
+        {/*end item*/}
+        {/*start item*/}
         <div className="mb-4 flex flex-col sm:grid sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
           <a
             target="blank_"
@@ -241,6 +376,8 @@ export const Portfolio = () => {
             </a>
           </div>
         </div>
+        {/*end item*/}
+        {/*start item*/}
         <div className="mb-4 flex flex-col sm:grid sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
           <a
             target="blank_"
@@ -280,6 +417,8 @@ export const Portfolio = () => {
             </a>
           </div>
         </div>
+        {/*end item*/}
+        {/*start item*/}
         <div className="mb-4 flex flex-col sm:grid sm:grid-cols-8 rounded-lg bg-black/40 overflow-hidden shadow-xl z-1 sm:pr-5">
           <a
             target="blank_"
@@ -319,6 +458,7 @@ export const Portfolio = () => {
             </a>
           </div>
         </div>
+        {/*end item*/}
       </div>
     </div>
   );
