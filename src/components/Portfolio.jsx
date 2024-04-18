@@ -11,6 +11,7 @@ import proj9 from "../assets/Multi-step-form.png";
 import proj10 from "../assets/News-Homepage.png";
 import proj11 from "../assets/Hangman.png";
 import proj12 from "../assets/Intro-with-dropdowns.png";
+import proj13 from "../assets/Some-ecommerce.png";
 import Project from "./Project";
 
 export const Portfolio = () => {
@@ -24,6 +25,15 @@ export const Portfolio = () => {
           title={"Multi step form"}
           description={
             "Multi step form based on a challenge from Frontend Mentor."
+          }
+        />
+        <Project
+          image={proj13}
+          site={"https://some-sneakers-site.netlify.app/"}
+          github={"https://github.com/Xavi-Arnau/ecommerce-product-page-main"}
+          title={"Ecommerce product page"}
+          description={
+            "Ecommerce product page with lightbox, sliding mobile menu and cart. Based on a challenge from Frontend Mentor."
           }
         />
         <Project
