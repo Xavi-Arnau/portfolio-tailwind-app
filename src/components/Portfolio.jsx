@@ -12,6 +12,7 @@ import proj10 from "../assets/News-Homepage.png";
 import proj11 from "../assets/Hangman.png";
 import proj12 from "../assets/Intro-with-dropdowns.png";
 import proj13 from "../assets/Some-ecommerce.png";
+import proj14 from "../assets/Fun-with-Maps-App.png";
 import Project from "./Project";
 
 export const Portfolio = () => {
@@ -43,6 +44,15 @@ export const Portfolio = () => {
           title={"Site with dropdowns"}
           description={
             "Intro site with dropdowns and a sliding menu for mobile sizes. Based on a challenge from Frontend Mentor."
+          }
+        />
+        <Project
+          image={proj14}
+          site={"https://fun-with-maps.netlify.app/"}
+          github={"https://github.com/Xavi-Arnau/fun-with-maps-app"}
+          title={"Fun with Maps"}
+          description={
+            "A site featuring the MapLibre library to display some maps and functionality."
           }
         />
         <Project
