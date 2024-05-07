@@ -13,6 +13,8 @@ import proj11 from "../assets/Hangman.png";
 import proj12 from "../assets/Intro-with-dropdowns.png";
 import proj13 from "../assets/Some-ecommerce.png";
 import proj14 from "../assets/Fun-with-Maps-App.png";
+import proj15 from "../assets/Rock-Paper-Scissors.png";
+
 import Project from "./Project";
 
 export const Portfolio = () => {
@@ -38,13 +40,11 @@ export const Portfolio = () => {
           }
         />
         <Project
-          image={proj12}
-          site={"https://intro-with-dropdowns.netlify.app/"}
-          github={"https://github.com/Xavi-Arnau/intro-with-dropdowns"}
-          title={"Site with dropdowns"}
-          description={
-            "Intro site with dropdowns and a sliding menu for mobile sizes. Based on a challenge from Frontend Mentor."
-          }
+          image={proj15}
+          site={"https://some-rock-paper-scissors.netlify.app/"}
+          github={"https://github.com/Xavi-Arnau/rock-paper-scissors"}
+          title={"Rock Paper Scissors game"}
+          description={"Rock Paper Scissors game. Quite self explanatory."}
         />
         <Project
           image={proj14}
@@ -53,6 +53,15 @@ export const Portfolio = () => {
           title={"Fun with Maps"}
           description={
             "A site featuring the MapLibre library to display some maps and functionality."
+          }
+        />
+        <Project
+          image={proj12}
+          site={"https://intro-with-dropdowns.netlify.app/"}
+          github={"https://github.com/Xavi-Arnau/intro-with-dropdowns"}
+          title={"Site with dropdowns"}
+          description={
+            "Intro site with dropdowns and a sliding menu for mobile sizes. Based on a challenge from Frontend Mentor."
           }
         />
         <Project
