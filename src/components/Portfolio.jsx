@@ -14,6 +14,7 @@ import proj12 from "../assets/Intro-with-dropdowns.png";
 import proj13 from "../assets/Some-ecommerce.png";
 import proj14 from "../assets/Fun-with-Maps-App.png";
 import proj15 from "../assets/Rock-Paper-Scissors.png";
+import proj16 from "../assets/Room-Homepage.png";
 
 import Project from "./Project";
 
@@ -54,6 +55,13 @@ export const Portfolio = () => {
           description={
             "A site featuring the MapLibre library to display some maps and functionality."
           }
+        />
+        <Project
+          image={proj16}
+          site={"https://some-room-homepage.netlify.app/"}
+          github={"https://github.com/Xavi-Arnau/room-homepage"}
+          title={"Room Homepage"}
+          description={"Homepage with slides and mobile menu"}
         />
         <Project
           image={proj12}
