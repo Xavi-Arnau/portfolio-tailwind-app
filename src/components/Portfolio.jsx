@@ -15,6 +15,7 @@ import proj13 from "../assets/Some-ecommerce.png";
 import proj14 from "../assets/Fun-with-Maps-App.png";
 import proj15 from "../assets/Rock-Paper-Scissors.png";
 import proj16 from "../assets/Room-Homepage.png";
+import proj17 from "../assets/XaviPress.png";
 
 import Project from "./Project";
 
@@ -41,11 +42,11 @@ export const Portfolio = () => {
           }
         />
         <Project
-          image={proj15}
-          site={"https://some-rock-paper-scissors.netlify.app/"}
-          github={"https://github.com/Xavi-Arnau/rock-paper-scissors"}
-          title={"Rock Paper Scissors game"}
-          description={"Rock Paper Scissors game. Quite self explanatory."}
+          image={proj17}
+          site={"https://xavipress-dashboard.netlify.app/"}
+          github={"https://github.com/Xavi-Arnau/xavipress-dashboard"}
+          title={"Dashboard"}
+          description={"A Dashboard using Next.js, TypeScript and Shadcn/ui"}
         />
         <Project
           image={proj14}
@@ -62,6 +63,13 @@ export const Portfolio = () => {
           github={"https://github.com/Xavi-Arnau/room-homepage"}
           title={"Room Homepage"}
           description={"Homepage with slides and mobile menu"}
+        />
+        <Project
+          image={proj15}
+          site={"https://some-rock-paper-scissors.netlify.app/"}
+          github={"https://github.com/Xavi-Arnau/rock-paper-scissors"}
+          title={"Rock Paper Scissors game"}
+          description={"Rock Paper Scissors game. Quite self explanatory."}
         />
         <Project
           image={proj12}
