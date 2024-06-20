@@ -16,6 +16,7 @@ import proj14 from "../assets/Fun-with-Maps-App.png";
 import proj15 from "../assets/Rock-Paper-Scissors.png";
 import proj16 from "../assets/Room-Homepage.png";
 import proj17 from "../assets/XaviPress.png";
+import proj18 from "../assets/Boardgames-Shop.png";
 
 import Project from "./Project";
 
@@ -47,6 +48,15 @@ export const Portfolio = () => {
           github={"https://github.com/Xavi-Arnau/xavipress-dashboard"}
           title={"Dashboard"}
           description={"A Dashboard using Next.js, TypeScript and Shadcn/ui"}
+        />
+        <Project
+          image={proj18}
+          site={"https://boardgames-shop.netlify.app/"}
+          github={"https://github.com/Xavi-Arnau/boardgames-shop"}
+          title={"Boardgames shop"}
+          description={
+            "A mockup of a boardgames shop using Next.js, TypeScript and Shadcn/ui"
+          }
         />
         <Project
           image={proj14}
