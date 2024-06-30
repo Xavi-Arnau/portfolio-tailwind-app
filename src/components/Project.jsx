@@ -12,7 +12,7 @@ const Project = ({ image, github, site, description, title }) => {
         />
       </a>
 
-      <div className="flex flex-col col-span-4 p-4 mx-auto my-auto">
+      <div className="flex flex-col col-span-3 p-4 mx-auto my-auto">
         <h2 className="text-gray-200 font-bold text-xl leading-10">{title}</h2>
         <p className="text-gray-400">{description}</p>
       </div>

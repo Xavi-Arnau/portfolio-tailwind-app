@@ -17,13 +17,14 @@ import proj15 from "../assets/Rock-Paper-Scissors.png";
 import proj16 from "../assets/Room-Homepage.png";
 import proj17 from "../assets/XaviPress.png";
 import proj18 from "../assets/Boardgames-Shop.png";
+import proj19 from "../assets/Expense-Tracker.png";
 
 import Project from "./Project";
 
 export const Portfolio = () => {
   return (
     <div className="pt-16 pb-10 sm:pt-16 sm:pb-16 lg:pb-16">
-      <div className="px-7 mx-auto grid sm:grid-cols-2 gap-6">
+      <div className="px-7 mx-auto grid sm:grid-cols-3 gap-6">
         <Project
           image={proj9}
           site={"https://some-multi-step-form.netlify.app/"}
@@ -65,6 +66,16 @@ export const Portfolio = () => {
           title={"Fun with Maps"}
           description={
             "A site featuring the MapLibre library to display some maps and functionality."
+          }
+        />
+
+        <Project
+          image={proj19}
+          site={"https://some-expense-tracker-nextjs.netlify.app/"}
+          github={"https://github.com/Xavi-Arnau/expense-tracker-nextjs"}
+          title={"Espense tracker"}
+          description={
+            "The classic expense tracker but this time with auth, and a database. Built with Next.js, TypeScript, Prisma, Neon & Clerk."
           }
         />
         <Project
