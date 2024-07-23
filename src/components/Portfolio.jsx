@@ -18,6 +18,7 @@ import proj16 from "../assets/Room-Homepage.png";
 import proj17 from "../assets/XaviPress.png";
 import proj18 from "../assets/Boardgames-Shop.png";
 import proj19 from "../assets/Expense-Tracker.png";
+import proj20 from "../assets/Our-Sweet-Menu.png";
 
 import Project from "./Project";
 
@@ -60,12 +61,12 @@ export const Portfolio = () => {
           }
         />
         <Project
-          image={proj14}
-          site={"https://fun-with-maps.netlify.app/"}
-          github={"https://github.com/Xavi-Arnau/fun-with-maps-app"}
-          title={"Fun with Maps"}
+          image={proj20}
+          site={"https://menu-with-cart.netlify.app/"}
+          github={"https://github.com/Xavi-Arnau/menu-with-cart"}
+          title={"Menu with cart"}
           description={
-            "A site featuring the MapLibre library to display some maps and functionality."
+            "A desserts menu using React, Tailwind and Redux Toolkit."
           }
         />
 
@@ -76,6 +77,15 @@ export const Portfolio = () => {
           title={"Espense tracker"}
           description={
             "The classic expense tracker but this time with auth, and a database. Built with Next.js, TypeScript, Prisma, Neon & Clerk."
+          }
+        />
+        <Project
+          image={proj14}
+          site={"https://fun-with-maps.netlify.app/"}
+          github={"https://github.com/Xavi-Arnau/fun-with-maps-app"}
+          title={"Fun with Maps"}
+          description={
+            "A site featuring the MapLibre library to display some maps and functionality."
           }
         />
         <Project
