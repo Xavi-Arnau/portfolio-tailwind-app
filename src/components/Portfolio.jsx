@@ -66,7 +66,7 @@ export const Portfolio = () => {
           github={"https://github.com/Xavi-Arnau/menu-with-cart"}
           title={"Menu with cart"}
           description={
-            "A desserts menu using React, Tailwind and Redux Toolkit. Added testing with Vitest."
+            "A desserts menu using React, Tailwind, Tailwind-animate and Redux Toolkit. Added testing with Vitest. Added e2e testing with cypress."
           }
         />
 
