@@ -32,7 +32,7 @@ export const Portfolio = () => {
           github={"https://github.com/Xavi-Arnau/multi-step-form"}
           title={"Multi step form"}
           description={
-            "Multi step form based on a challenge from Frontend Mentor."
+            "Multi step form made with context and useReducer. Added e2e testing with cypress."
           }
         />
         <Project
