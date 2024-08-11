@@ -41,7 +41,7 @@ export const Portfolio = () => {
           github={"https://github.com/Xavi-Arnau/ecommerce-product-page-main"}
           title={"Ecommerce product page"}
           description={
-            "Ecommerce product page with lightbox, sliding mobile menu and cart. Based on a challenge from Frontend Mentor."
+            "Ecommerce product page with lightbox, sliding mobile menu and cart. Added e2e testing with cypress."
           }
         />
         <Project
