@@ -49,7 +49,9 @@ export const Portfolio = () => {
           site={"https://xavipress-dashboard.netlify.app/"}
           github={"https://github.com/Xavi-Arnau/xavipress-dashboard"}
           title={"Dashboard"}
-          description={"A Dashboard using Next.js, TypeScript and Shadcn/ui"}
+          description={
+            "A Dashboard using Next.js, TypeScript and Shadcn/ui. Added e2e testing with cypress."
+          }
         />
         <Project
           image={proj18}
